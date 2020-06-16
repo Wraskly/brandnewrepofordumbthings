@@ -2,7 +2,7 @@ function postMessageToDiscord(message) {
 
   message = message || "Hello World!";
 
-  var discordUrl = 'https://discordapp.com/api/webhooks/722559332507582574/D2p9onDpnMwe9VajKnpRvGGkge_Iq6NXMfPmpmoLSJ55--TVRcQ3fnUBQl3_K-zOGV8v';
+  var discordUrl = 'https://discordapp.com/api/webhooks/722559332507582574/D2p9onDpnMwe9VajKnpRvGGkge_Iq6NXMfPmpmoLSJ55--TVRcQ3fnUBQl3_K-zOGV8v/github';
   var payload = JSON.stringify({content: message});
 
   var params = {
